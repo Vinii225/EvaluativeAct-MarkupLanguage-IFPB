@@ -1,0 +1,64 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container centralizado */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalhos */
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+/* Lista de links */
+ul {
+    list-style: none; /* Remove os pontos padrão */
+    margin-top: 15px;
+    padding: 0;
+}
+
+ul a {
+    text-decoration: none; /* Remove sublinhado */
+    font-size: 1.1em;
+    color: #2980b9;
+    display: inline-block;
+    margin: 10px 0; /* Espaçamento entre os links */
+    transition: color 0.3s, transform 0.2s; /* Efeito suave */
+}
+
+ul a:hover {
+    color: #e74c3c; /* Cor ao passar o mouse */
+    transform: translateY(-3px); /* Efeito de leve "flutuação" */
+}
+
+/* Lista de itens */
+ul li {
+    display: inline; /* Deixa os itens inline */
+}
