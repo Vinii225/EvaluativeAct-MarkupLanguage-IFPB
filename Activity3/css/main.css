@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header {
-  background-image: url(../img/header-bg.jpg);
+  background-image: url(img/header-bg.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
