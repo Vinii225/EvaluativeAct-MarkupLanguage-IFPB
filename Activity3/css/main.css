@@ -99,3 +99,21 @@ footer section.copyright {
 footer section.copyright i.fa-heart {
   color: #f00;
 }
+
+/* Above this is the original CSS code */
+
+/* Below this is the fixed CSS code */
+
+header {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.intro-text {
+  text-align: center;
+}
+
+main{
+  padding: 50px 0px;
+}
