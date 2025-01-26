@@ -104,6 +104,7 @@ footer section.copyright i.fa-heart {
 
 /* Below this is the fixed CSS code */
 
+/* Header */
 header {
 display: flex;
 justify-content: center;
@@ -114,6 +115,80 @@ align-items: center;
   text-align: center;
 }
 
+/* Main */
 main{
-  padding: 50px 0px;
+  padding: 100px 15%;
+  display: flex;
+  flex-flow: wrap;
+  text-align: center;
+}
+
+main .service-description {
+  flex-basis: 100%;
+  margin-bottom: 100px;
+}
+
+main .service .circle-icon {
+  width: 6em;
+  height: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: auto;
+}
+
+main .service .circle-icon .fa {
+  font-size: 3em;
+}
+
+main .service {
+  flex-basis: calc(100% / 3);
+}
+
+/* footer, location, icons... */
+footer .footer-content {
+  text-align: center;
+  display: flex;
+  padding: 40px 15% 60px;
+}
+
+footer .footer-content > section {
+  flex-basis: calc(100% / 3);
+}
+
+footer section.social ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer section.social a {
+  margin: 15px;
+  border: 3px solid #555;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer section.social a:hover {
+  color: #fff;
+  background-color: #555;
+}
+
+footer section.copyright {
+  padding: 15px;
+  text-align: center;
+}
+
+/* footer, end part */
+footer section.copyright {
+  padding: 15px;
+  text-align: center;
 }
